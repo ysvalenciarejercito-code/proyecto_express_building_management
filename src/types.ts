@@ -5,7 +5,7 @@
 // Ejemplo: Book, Medicine, Member, Dish, Room...
 
 // TODO: Renombrar 'Item' al recurso de tu dominio asignado
-export interface Item {
+export interface Unit {
   id: string;
   name: string;
   category: string;
@@ -26,7 +26,7 @@ export interface Item {
 // }
 
 // Resumen que el procesador debe calcular
-export interface ItemSummary {
+export interface UnitSummary {
   total: number;
   active: number;
   inactive: number;
